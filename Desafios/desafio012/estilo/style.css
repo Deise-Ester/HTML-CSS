@@ -48,17 +48,35 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section> p{
+    padding-bottom:2em ;
+}
 section.normal{
     background-color:#da86205b;
 }
 section.imagem{
     background-color: #57320498;
     color: black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+    background-attachment: fixed;
 }
 section.imagem > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(255, 255, 255, 0.185);
     padding: 5px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.459);
+}
+section#img01{
+    background-image: url('../imagens/cristo-redentor-adaptado.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/imagem-nordeste.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
 }
 footer{
     background-color: black;
