@@ -23,11 +23,15 @@
         padding: 10px;
         background-color: rgba(0, 255, 255, 0.219);
        }
-       thead{
+       thead, tfoot{
         background-color: rgba(114, 207, 207, 0.726);
         color: rgb(7, 77, 77);
        }
-       .numero{
+       
+       tbody > tr:nth-child(2n){
+        background-color: rgba(135, 230, 243, 0.466);
+       }
+       td.numero{
         text-align: right;
        }
     </style>
