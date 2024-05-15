@@ -8,6 +8,20 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        table{
+            border-collapse: collapse;
+            background-color: white
+        }
+        th,td{
+            border: 1px solid rgb(165, 42, 42);
+            padding: 15px;
+        }
+        th{
+            background-color: rgba(201, 78, 78, 0.356);
+        }
+        th.cor{
+            background-color: white;
+        }
         
     </style>
 </head>
@@ -16,9 +30,57 @@
         <thead>
             <th>Àrea</th>
             <th>Disciplinas</th>
-            <th>Notas</th>
+            <th colspan="2">Notas</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
             <th>Media</th>
         </thead>
+        <tr>
+            <th rowspan="4" class="cor">Exatas</th>
+            <td>Matemática</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <tr>
+                <td>Fisíca</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tr>
+        <tr>
+            <th colspan="4">Média de Exatas</th>
+            <th>0.0</th>
+        </tr>
+        <tr>
+            <th rowspan="2" class="cor">Humanas</th>
+            <td>História</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4">Média de Humanas</th>
+                <th>0.0</th>
+            </tr>
+        </tr>
     </table>
 </body>
 </html>
