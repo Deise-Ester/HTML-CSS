@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: rgba(173, 137, 137, 0.349);
+        }
+        div#container{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo laboriosam sit perferendis sint ea, fuga nisi nihil sequi maxime inventore sapiente rem architecto accusamus nulla, voluptates atque hic vero nam.</p>
+    <div id="container">
+    <table>
+        <caption>Tabelas responsivas</caption>
+    <thead>
+        <tr>
+            <th>Vendas</th>
+            <th>Janeiro</th>
+            <th>Fevereiro</th>
+            <th>Março</th>
+            <th>Abril</th>
+            <th>Maio</th>
+            <th>Junho</th>
+            <th>Julho</th>
+            <th>Agosto</th>
+            <th>Setembro</th>
+            <th>Outubro</th>
+            <th>Novembro</th>
+            <th>Dezembro</th>
+        </tr>
+        <tr>
+            <td>Brigadeiro</td>
+            <td>700</td>
+            <td>750</td>
+            <td>225</td>
+            <td>500</td>
+            <td>290</td>
+            <td>670</td>
+            <td>400</td>
+            <td>786</td>
+            <td>388</td>
+            <td>560</td>
+            <td>760</td>
+            <td>1.000</td>
+        </tr>
+        <tr>
+            <td>Paçoca</td>
+            <td>400</td>
+            <td>560</td>
+            <td>540</td>
+            <td>760</td>
+            <td>670</td>
+            <td>470</td>
+            <td>650</td>
+            <td>680</td>
+            <td>500</td>
+            <td>780</td>
+            <td>876</td>
+            <td>650</td>
+        </tr>
+        <tr>
+            <td>Pé de moleque</td>
+            <td>786</td>
+            <td>224</td>
+            <td>200</td>
+            <td>540</td>
+            <td>389</td>
+            <td>498</td>
+            <td>320</td>
+            <td>690</td>
+            <td>450</td>
+            <td>650</td>
+            <td>679</td>
+            <td>800</td>
+        </tr>
+    </thead>
+    </table>
+    </div>
+</body>
+</html>
