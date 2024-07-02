@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link
+        rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Five Nigths at Freddy's Escolha Sua Noite</h1>
+        <i id="relogio" class="material-icons" onclick="clickMenu()">alarm</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Noite 1</a></li>
+                <li><a href="#">Noite 2</a></li>
+                <li><a href="#">Noite 3</a></li>
+                <li><a href="#">Noite 4</a></li>
+                <li><a href="#">Noite 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+        <h2>Animatronics Principais</h2>
+        <p>Noite 1: Teremos o animatronic (Freddy Fazbear), é sempre representado como um urso marrom de nariz grande, porém ele já dá indícios tenebrosos com marcas de mãos humanas na cabeça e uma risada de criança desacelerada.</p>
+
+        <p>Noite 2: Teremos o Animatronic (Bonnie),  é representado como um coelho de olhos marrons que possui orelhas articuladas que podem dobrar para frente, e usa uma gravata borboleta vermelha. No Palco ilustrado pelo jogo, ele sempre está com  uma guitarra vermelha. </p>
+
+        <p>Noite 3: Teremos a Animatronic (Chica), é sempre representada como uma galinha amarela brilhante de cabeça esférica, bico laranja, olhos de cor magenta e sobrancelhas pretas. Ela usa um babador escrito "LET'S EAT!!!"</p>
+
+        <p>Noite 4: Teremos o Animatroc (Foxy), é sempre representado como uma raposa de cor marrom-avermelhado e pele esfarrapada. Ele tem um gancho em sua mão direita e um tapa-olho em seu olho direito.</p>
+
+        <p>Noite 5: Teremos o Animatronic (The pupet), é sempre representado como  face branca com olhos vazios.  Seu rosto é semelhante a de um pierrô, com bochechas coradas, listras roxas que se estendem de seus olhos ao topo de sua boca e usa um batom vermelho. </p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+           } else{
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
