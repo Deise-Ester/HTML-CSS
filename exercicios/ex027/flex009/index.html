@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+         background-color: cornflowerblue;
+
+         display: flex;
+         flex-flow: row nowrap;
+
+        }
+        div.item{
+         background-color: rgba(62, 175, 175, 0.658);
+         border: 1px solid black;
+         text-align: center;
+         flex-basis: 200px;
+         
+
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">é vários conteúdos</div>
+        <div class="item">O</div>
+        <div class="item">conteúdo</div>
+        <div class="item">E</div>
+        <div class="item">Esse é maior ainda, tipo muito maior</div>
+
+    </div>
+</body>
+</html>
