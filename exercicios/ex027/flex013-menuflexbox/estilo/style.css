@@ -24,13 +24,11 @@ header{
     
 }
 header > h1{
-    border: 1px dotted black;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.507);
     
 }
 header > nav{
-    border: 1px dotted black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -55,9 +53,6 @@ header > nav > a{
 header > nav > a:hover{
     background-color: rgba(0, 0, 0, 0.404);
     transition: background-color .5s;
-}
-nav{
-    border: 1px dotted black;
 }
 main{
     background-color: white;
